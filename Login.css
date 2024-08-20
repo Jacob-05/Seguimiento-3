@@ -30,16 +30,24 @@ h3 {
   color: rgb(255, 30, 0);
   font-size: small;
 }
-.red-btn {
-    background-color: rgb(208, 63, 63);
-    width: 150px;
-    height: 40px;
-    margin: 10px;
-    border-radius: 35px;
-    align-items: center;
-}
 .btn-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.btn-LI {
+    background-color:  rgb(33, 31, 31);
+    border-color: white;
+    border-radius: 35px;
+    padding: 10px 40px;
+    font-family: "Bungee Tint", sans-serif;
+}
+.btn-LI:hover {
+    background-color: white;
+    border-color: white;
+}
+.text {
+    display: flex;
+    justify-content: center;
+}
+
