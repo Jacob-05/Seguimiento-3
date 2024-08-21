@@ -50,4 +50,20 @@ h3 {
     display: flex;
     justify-content: center;
 }
+.Redes-Sociales {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333; /* Color del icono */
+    font-size: 24px; /* Tamaño del icono */
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007BFF; /* Color al pasar el cursor */
+}
