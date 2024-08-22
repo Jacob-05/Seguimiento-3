@@ -1,0 +1,9 @@
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/921/109/263/league-of-legends-project-skins-summoners-rift-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
