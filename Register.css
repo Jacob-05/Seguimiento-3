@@ -1,9 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/921/109/263/league-of-legends-project-skins-summoners-rift-wallpaper-preview.jpg);
+    background-image: url(https://static.wikia.nocookie.net/leagueoflegends/images/8/85/PROJECT_Initiative_mainframe.jpg/revision/latest?cb=20150820202926);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Titillium Web', sans-serif;
 }
+
+.container {
+    background-color: rgba(69, 63, 63, 0.8); /* Fondo semitransparente para resaltar sobre el fondo */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(249, 8, 8);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    font-family: 'Bungee Tint', cursive;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+    font-family: "Titillium Web", sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+input::placeholder {
+    color: #ff0000;
+}
+
+.btn-container {
+    margin-top: 10px;
+}
+
+.btn-SU {
+    background-color: #8a1111;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn-SU:hover {
+    background-color: #ff0000;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.text h3 {
+    color: #777;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.Redes-Sociales {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background-color: #555;
+}
+
+.fab {
+    font-size: 20px;
+}
+
+

@@ -18,6 +18,8 @@ h1 {
     height: 550px;
     border-radius: 16px;
     padding: 10px;
+    box-shadow: 0 4px 15px rgb(255, 0, 0);
+    opacity: 97%;
 }
 h2 {
     font-family: "Titillium Web", sans-serif;
@@ -68,4 +70,10 @@ h3 {
 
 .social-icon:hover {
     color: #ff0000; 
+}
+
+input {
+    border-radius: 5px;
+    background-color: #3f3b3b;
+    color: aliceblue;
 }
